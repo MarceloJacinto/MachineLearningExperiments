@@ -8,6 +8,7 @@
  * @author Marcelo Fialho Jacinto
  * @date 24/05/2020
  * @see Sigmoid
+ * @see Relu
  */
 class ActivationFunction {
 
