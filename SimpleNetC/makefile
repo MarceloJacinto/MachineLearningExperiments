@@ -1,12 +1,16 @@
 
+CC=g++
+CFLAGS=-g
+LFLAGS=
+
 output: main.o sigmoid.o
-	g++ main.o sigmoid.o -o output
+	$(CC) main.o sigmoid.o -o output
 
 main.o: main.cpp
-	g++ -c main.cpp
+	$(CC) $(CFLAGS) -c main.cpp
 
 sigmoid.o: sigmoid.cpp
-	g++ -c sigmoid.cpp
+	$(CC) $(CFLAGS) -c sigmoid.cpp
 
 clean:
 	rm  *.o output
