@@ -1,11 +1,11 @@
 #include <iostream>
-#include "activation_function.h"
-#include "sigmoid.h"
-#include "relu.h"
+#include "activation_function/activation_function.h"
+#include "activation_function/sigmoid.h"
+#include "activation_function/relu.h"
 
-#include "loss_function.h"
-#include "log_loss.h"
-#include "squared_error_loss.h"
+#include "cost_function/loss_function/loss_function.h"
+#include "cost_function/loss_function/log_loss.h"
+#include "cost_function/loss_function/squared_error_loss.h"
 
 /**
  * Main function - entry point to the program
